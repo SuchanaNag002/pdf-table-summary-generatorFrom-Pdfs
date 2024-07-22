@@ -1,5 +1,4 @@
 
-
 ---
 
 # PDF Table Extractor
@@ -15,7 +14,7 @@ The **PDF Table Extractor** is a tool designed to process PDF files, extract tab
 - **Table Extraction**: `tabula` for reading tables from PDFs
 - **OCR**: `pytesseract` for optical character recognition
 - **Embeddings**: `GoogleGenerativeAIEmbeddings` for generating text embeddings and summaries
-- **LLM**: `gemini-1.5-flash` for gnerating summaries of tabular data present in the pdf
+- **LLM**: `gemini-1.5-flash` for generating summaries of tabular data present in the PDF
 - **Data Handling**: `pandas` for data manipulation and cleaning
 - **Database**: Not used in this project
 - **Deployment**: Not specified; can be deployed using any ASGI-compatible server
@@ -100,8 +99,8 @@ For `pytesseract`, you need to install Tesseract and configure its path:
 
 For testing the application, you can use the static files provided in the project:
 
-- **Sample PDF**: `app/static/table_pdf.pdf` - A sample PDF file used for testing the application's table extraction and processing capabilities.
-- **FastAPI Screenshot**: `app/static/fastapi_ss_output.png` - A screenshot of the FastAPI output from processing `table_pdf.pdf`, demonstrating the application’s response.
+- **Sample PDF**: [table_pdf.pdf](app/static/table_pdf.pdf) - A sample PDF file used for testing the application's table extraction and processing capabilities.
+- **FastAPI Screenshot**: [fastapi_ss_output.png](app/static/fastapi_ss_output.png) - A screenshot of the FastAPI output from processing `table_pdf.pdf`, demonstrating the application’s response.
 
 ## Usage
 
