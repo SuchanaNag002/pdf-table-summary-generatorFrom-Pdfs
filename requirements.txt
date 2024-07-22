@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+pdf2image
+pytesseract
+tabula-py
+pandas
+langchain
+-U langchain-community
+openai
+faiss-cpu
+pydantic
+pydantic-settings
+jpype
+tiktoken
+google-generativeai
+langchain-goolge-genai
